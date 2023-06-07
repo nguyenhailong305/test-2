@@ -1,0 +1,40 @@
+
+[
+  [
+    "Hỗ trợ khách hàng",
+    {"title":"Thuê bao","icon":"icon-note","subItems":[
+      {"title":"Thông tin ứng dụng","icon":"fa fa-book","link":"/phone/list"},
+      {"title":"Đăng ký gói KM4G","icon":"fa fa-book","link":"/km4g/detail"},
+      {"title":"Lịch sử Đăng ký gói KM4G","icon":"fa fa-book","link":"/km4g-log/detail"}
+    ]}
+  ],
+  [
+    "Chương trình khuyến mại",
+    {"title":"Tra cứu","icon":"icon-note","subItems":[
+      {"title":"Tra cứu thuê bao tham gia CTKM chọn quà","icon":"fa fa-search","link":"/phonectkm/detail"},
+      {"title":"Danh sách thuê bao tham gia CTKM chọn quà","icon":"fa fa-search","link":"/phonectkm/list"}
+    ]}
+  ],
+  [
+    "Quản trị nội dung",
+    {"title":"Nội dung chung","icon":"icon-note","subItems":[
+      {"title":"Push notification","icon":"fa fa-bell","link":"/notification/list"}
+    ]}
+  ],
+  [
+    "Báo cáo",
+    {"title":"Chương trình khuyến mại","icon":"icon-note","subItems":[
+      {"title":"Báo cáo số quà còn lại ctkm","icon":"fa fa-bar-chart-o","link":"/statistic/report-remain-gift-ctkm"}
+    ]}
+  ],
+  [
+    "Quản trị hệ thống",
+    {"title":"Quản trị viên","icon":"fa fa-book","link":"/admin/list"},
+    {"title":"Phân quyền hệ thống","icon":"fa fa-wrench","subItems":[
+      {"title":"Quản lý nhóm quyền","icon":"icon-list","link":"/permissiongroup/list"},
+      {"title":"Phân quyền nghiệp vụ","icon":"fa fa-bar-chart-o","link":"/permissiongroup/grandpermission"}
+    ]},
+    {"title":"Mẫu SMS","icon":"fa fa-wrench","link":"/smstemplate/list"},
+    {"title":"Danh sách profile","icon":"fa fa-phone","link":"/profile/list"}
+  ]
+]
